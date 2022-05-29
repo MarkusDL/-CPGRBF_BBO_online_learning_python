@@ -1,4 +1,4 @@
-# Generic neural locomotion control framework
+# Online generic neural locomotion control framework
 
 __The framework is based on neural control and black-box optimization. The neural control combines a central pattern generator (CPG) and a radial basis function (RBF) network into a CPG-RBF network. The control network acts as a neural basis that can produce arbitrary rhythmic trajectories for the joints of robots.__
 
@@ -11,7 +11,7 @@ First, we need to set up the v-rep sim. Typically the simulator is installed in 
 1. Download the latest version of V-REP (aka CoppeliaSim) [from the downloads page](http://www.coppeliarobotics.com/downloads.html)
 2. Extract the downloaded .zip file in the V-REP directory.
 3. Go to the extracted directory - should be called `VREP1`
-5. copy and (re)place `libv_repExtRosInterface.so` in `/utils/v-rep_simulations/v-rep_libs/reallib/libv_repExtRosInterface.so`​in all `VREP#` directories.
+5. copy and place in /utils/simulationID.txt in the VREP directory.
 
 Now we need to install the required python libraries:
 
@@ -20,18 +20,9 @@ sudo apt install python3-pip
 pip3 install -r requirements.txt
 ```
 
-The neural controllers use ROS to communicate with v-rep. So make sure that you have `ros-xxx-desktop-full` installed ([Install ROS](http://wiki.ros.org/ROS/Installation))
+The neural controllers use ROS to communicate with v-rep. So make sure that you have `ros-xxx-desktop-full` installed ([Install ROS](http://wiki.ros.org/ROS/Installation)), and folow the VREP/Coppeliasim Ros turtorial ([Ros tutorial](https://www.coppeliarobotics.com/helpFiles/en/ros1Tutorial.htm))
 
 You should be good to go!
-
-#### Running Headless
-
-If you plan to run on a headless machine, you will also need to run with a virtual framebuffer. E.g.
-
-```bash
-sudo apt-get install xvfb
-xvfb-run python3 my_pyrep_app.py
-```
 
 #### Troubleshooting
 
