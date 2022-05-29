@@ -1,0 +1,9 @@
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/1/
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/2/
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/3/
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/4/
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/5/
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/6/
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/7/
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/8/
+python3 MultiLearning.py RBFN direct true true true 30 7 4 0.1 0.04 0.995 GaitMemories/memoryUsePriorExperiements/9/

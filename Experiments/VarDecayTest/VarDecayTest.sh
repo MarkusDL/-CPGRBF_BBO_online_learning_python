@@ -1,0 +1,9 @@
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
+python3 main.py RBFN direct false false false 50 4 4 0.1 0.04 0.98 Experiments/VarDecayTest/ex001/
